@@ -47,7 +47,8 @@
       "role": { "reply": "To claim your Patreon Discord role, please follow this guide: <https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role>"},
       "release": { "reply": "yuzu builds can be manually downloaded on Github: <https://github.com/yuzu-emu/yuzu-mainline/releases>"},
       "rec": { "reply": "For information on recommended settings and GPU drivers for yuzu, please refer to this page: <https://community.citra-emu.org/t/recommended-settings/319349>"},
-      "issue": {"reply": "Please refer to our __GitHub issues page__ to file an issue or a feature request: <https://github.com/yuzu-emu/yuzu/issues/new/choose>"}
+      "issue": {"reply": "Please refer to our __GitHub issues page__ to file an issue or a feature request: <https://github.com/yuzu-emu/yuzu/issues/new/choose>"},
+      "usecase": {"reply": "Emulators are for enhancing your bought game beyond what the console can offer. Which means resolution upscaling, mod support, texture packs, texture filters, speed ups, ect.\nMost importantly it's for the preservation of your games when the console will inevitably no longer be available for purchase.\nEmulators are not for people to commit theft online."}
     }
   }
 
