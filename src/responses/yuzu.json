@@ -49,7 +49,8 @@
       "rec": { "reply": "For information on recommended settings and GPU drivers for yuzu, please refer to this page: <https://community.citra-emu.org/t/recommended-settings/319349>"},
       "issue": {"reply": "Please refer to our __GitHub issues page__ to file an issue or a feature request: <https://github.com/yuzu-emu/yuzu/issues/new/choose>"},
       "drivers": { "reply": "yuzu can use custom drivers for Android devices with an Adreno 6XX/7XX GPU (Snapdragon SoC). There are no custom drivers for Mediatek, Exynos, or any other SoCs currently.\n\nTo use custom drivers, head to #android-drivers, open a driver thread that corresponds with your phone's GPU, and open the latest link posted in the thread.\nIf you don't know your phone's GPU, search for your phone on <https://www.gsmarena.com/>.\nDownload the .zip file from the link, go to the GPU driver manager in the Settings tab and select the downloaded driver you'd like to install."},
-      "usecase": {"reply": "Emulators are for enhancing your bought game beyond what the console can offer. Which means resolution upscaling, mod support, texture packs, texture filters, speed ups, ect.\nMost importantly it's for the preservation of your games when the console will inevitably no longer be available for purchase.\nEmulators are not for people to commit theft online."}
+      "usecase": {"reply": "Emulators are for enhancing your bought game beyond what the console can offer. Which means resolution upscaling, mod support, texture packs, texture filters, speed ups, ect.\nMost importantly it's for the preservation of your games when the console will inevitably no longer be available for purchase.\nEmulators are not for people to commit theft online."},
+      "case": {"reply": "We do not know anything other than the public filing, and we are not able to discuss the matter at this time."}
     }
   }
 
