@@ -196,7 +196,9 @@ client.on('messageCreate', async (message) => {
       logger.error(`Unable to get the roles for ${message.author}`);
       return;
     }
-    if (cachedModule && cachedModule.roles && !findArray(authorRoles, cachedModule.roles)) {
+    const isAllowed = (cmd === 'case' && findArray(authorRoles, ['Admins', 'Moderators', 'Developer'])) ||
+      (cachedModule?.roles && findArray(authorRoles, cachedModule.roles));
+    if (!isAllowed) {
       await state.logChannel?.send(`${message.author.toString()} attempted to use admin command: ${message.content}`);
       logger.info(`${message.author.username} ${message.author} attempted to use admin command: ${message.content}`);
       return;
